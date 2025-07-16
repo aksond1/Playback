@@ -1,3 +1,3 @@
 # Playback
 
-Playback is a free, open-source social platform for uploading and watching videos. Here, on Playback, users have a forgotten space where they are the main characters. Playback is a sandbox where simplicity and interaction are the keys to everything.
+Playback is a free, open-source social platform for uploading and watching videos. Here, on Playback, users take center stage. It’s a sandbox where simplicity and community are the keys to everything. No ads. No clutter. Just you and your videos.
