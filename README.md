@@ -19,11 +19,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condime
 ### Adaptive and clean interface <5>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. Sed ultrices et nibh id pulvinar. Phasellus in odio vel odio consequat varius. Phasellus auctor consectetur sapien, eu accumsan erat auctor sodales. Cras laoreet nunc eget fringilla pellentesque.
 
-### Detailed statistics <6>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. Sed ultrices et nibh id pulvinar. Phasellus in odio vel odio consequat varius. Phasellus auctor consectetur sapien, eu accumsan erat auctor sodales. Cras laoreet nunc eget fringilla pellentesque.
-
-### Fun-features <7>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. Sed ultrices et nibh id pulvinar. Phasellus in odio vel odio consequat varius. Phasellus auctor consectetur sapien, eu accumsan erat auctor sodales. Cras laoreet nunc eget fringilla pellentesque.
 
 ## License
 
