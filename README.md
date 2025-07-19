@@ -5,19 +5,19 @@ Playback is a free, open-source social platform for uploading and watching video
 ## Features 
 
 ### No advertisements <1>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. Sed ultrices et nibh id pulvinar. Phasellus in odio vel odio consequat varius. Phasellus auctor consectetur sapien, eu accumsan erat auctor sodales. Cras laoreet nunc eget fringilla pellentesque.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
 
 ### Users is the root <2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. Sed ultrices et nibh id pulvinar. Phasellus in odio vel odio consequat varius. Phasellus auctor consectetur sapien, eu accumsan erat auctor sodales. Cras laoreet nunc eget fringilla pellentesque.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
 
 ### Your feed - your choice <3>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. Sed ultrices et nibh id pulvinar. Phasellus in odio vel odio consequat varius. Phasellus auctor consectetur sapien, eu accumsan erat auctor sodales. Cras laoreet nunc eget fringilla pellentesque.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
 
 ### Variety of functions <4>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. Sed ultrices et nibh id pulvinar. Phasellus in odio vel odio consequat varius. Phasellus auctor consectetur sapien, eu accumsan erat auctor sodales. Cras laoreet nunc eget fringilla pellentesque.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
 
 ### Adaptive and clean interface <5>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. Sed ultrices et nibh id pulvinar. Phasellus in odio vel odio consequat varius. Phasellus auctor consectetur sapien, eu accumsan erat auctor sodales. Cras laoreet nunc eget fringilla pellentesque.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
 
 
 ## License
@@ -38,3 +38,7 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
+
+## Contact
+
+You can reach me at: [stas.kravchuk.34@gmail.com](mailto:stas.kravchuk.34@gmail.com)
