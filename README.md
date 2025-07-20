@@ -5,20 +5,16 @@ Playback is a free, open-source social platform for uploading and watching video
 ## Features 
 
 ### No advertisements <1>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
+Playback is completely against advertising. For the best user experience, ads should not appear in any form — whether in videos, on the website, or elsewhere.
 
-### Users is the root <2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
+### Users come first <2>
+User opinions and feedback are the foundation of the platform's development. Playback is shaped by the people who use it — every feature is built with the community in mind.
 
-### Your feed - your choice <3>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
+### Your feed — your choice <3>
+Playback users have a special privilege: the ability to customize their own recommendation feed. This feature lets you tailor content to your tastes right in your settings. 
 
-### Variety of functions <4>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
-
-### Adaptive and clean interface <5>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget condimentum massa, non tincidunt tortor. Proin justo lectus, ultricies id nisl at, semper commodo ex. 
-
+### Adaptive and clean interface <4>
+A clean and simple interface offers a layout that feels natural from the start. Users can personalize the interface to their liking, including choosing or creating their own themes, changing names, and more.
 
 ## License
 
