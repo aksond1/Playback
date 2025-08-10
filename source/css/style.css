@@ -18,11 +18,21 @@ span {
   margin-left: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 60px;
+}
+
 .showcase {
   padding: 15px;
   background-color: rgb(10, 10, 10);
   width: 200px;
 }
+
 .user {
   padding: 15px;
   /*background-color: rgb(26, 26, 26);*/
@@ -30,11 +40,10 @@ span {
   width: 200px;
 }
 
-a {
-  text-decoration: none; /* прибирає підкреслення */
-  color: #ffffff; /* змінює колір на темно-сірий або будь-який інший */
-  cursor: pointer;
-  display: block;
-  margin-bottom: 8px;
-  margin-left: 20px; /* змінює курсор на "руку" при наведенні */
+.links {
+  padding: 15px;
+  background-color: rgb(10, 10, 10);
+  width: 200px;
+  text-align: center;
+  padding-bottom: 0px;
 }
