@@ -187,3 +187,72 @@ a {
 .text-under-graph {
   margin-top: 20px;
 }
+
+.following-friends-recommendations-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.following-friends-recommendations-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.following-friends-recommendations-list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px; /* довжина лінії */
+  height: 1px; /* товщина лінії */
+  background: rgba(255, 255, 255, 0.459);
+}
+
+/* нижня коротка лінія по центру */
+.following-friends-recommendations-list::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.459);
+}
+
+.ffr-title {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.following-friends-recommendations-list li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.following-friends-recommendations-list h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.following {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.followed-channels-icons {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
