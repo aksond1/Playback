@@ -1,52 +1,57 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Playback</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1 style="margin-left: 10px; margin-bottom: 30px">
-      <img
-        src="/assets/images/svg/playback-logo.svg"
-        alt="logo"
-        width="30px"
-        height="30px"
-        style="position: relative; top: 3px;"
-      /><span style="margin: 0px;">︱Playback</span>
-    </h1>
+    <div class="left-box">
+      <div class="logo-container">
+      <img class="playback-img" src="/assets/images/svg/playback-logo.svg" alt="playback-logo"><h1 class="playback-title">︱Playback</h1>
+    </div>
+      
+    <div class="user-container">
+      <img class="user-img" src="/assets/images/jpg/icon.jpeg" alt="icon"/>
+      <div class="user-infobox">
+      <span class="user-name">aksond1 <span style="color: green;">•</span></span>
+      <span class="current-status">Watching: Living in ..</span>
+      </div>
+    </div>
 
-    <p class="user">
-      <img
-        src="/assets/images/jpg/icon.jpeg"
-        alt="icon"
-        width="50px"
-        height="50px"
-      />
-      <span>aksond1</span>
-    </p>
+    <div class="showcase-container">
+      <span></span>
+      <span class="tts">
+      Total Time Spent: 317h
+      <br>
+      TTS for Today: 2.14h
+      </span>
 
-    <p class="showcase">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus
-      risus vitae eros tempor aliquam. Proin non dui augue. Proin eget lectus
-      posuere, egestas risus quis, suscipit augue. Donec fringilla varius est,
-      et rhoncus urna rhoncus non. Proin non dui augue. Proin eget lectus
-      posuere, egestas risus quis, suscipit augue. Donec fringilla varius est,
-      et rhoncus urna rhoncus non. Proin non dui augue. Proin eget lectus
-      posuere, egestas risus quis. Praesent vel orci sed risus tempor iaculis.
-      Nulla volutpat nunc id augue tincidunt eleifend. Click here for more details:<a onclick="showMessage()">Click</a>
-    </p>
+      <div class="stats-in-graph">
+      <img class="circle-graph-example-img" src="/assets/images/png/circle-graph-example.png" alt="circle-graph-example">
+      <ul class="categories-list">
+        <li>Programming</li>
+        <li>Gaming</li>
+        <li>Anime</li>
+        <li>Other</li>
+      </ul>
+      </div>
 
-    <p class="links">
+      <span class="text-under-graph">Compared to last week, you’ve started spending significantly less time. <br> At this pace, your productivity will increase by 23% over the next three months. <br> Keep up the great work! <br><br> Tip: Don't forget to drink more water !</span>
+    </div>
+
+    <ul class="links">
       You can also try other junk I've created
-      <h3><a href="qwe.html">Flux</a></h3>
-      <h3><a href="qwe.html">Warble</a></h3>
-      <h3><a href="qwe.html">Sketch</a></h3>
-      <h3><a href="qwe.html">Hence</a></h3>
-      <h3><a href="qwe.html">Interval</a></h3>
+      <li><a href="qwe.html"><h3>Flux</h3></a></li>
+      <li><a href="qwe.html"><h3>Sketch</h3></a></li>
+      <li><a href="qwe.html"><h3>Warble</h3></a></li>
+      <li><a href="qwe.html"><h3>Hence</h3></a></li>
+      <li><a href="qwe.html"><h3>Interval</h3></a></li>
     </p>
 
     <script src="../js/script.js"></script>
+    </div>
   </body>
 </html>
