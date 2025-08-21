@@ -66,7 +66,7 @@ a {
   transform: translateX(-50%);
   width: 220px; /* довжина лінії */
   height: 1px; /* товщина лінії */
-  background: rgba(255, 255, 255, 0.459);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 /* нижня коротка лінія по центру */
@@ -78,7 +78,7 @@ a {
   transform: translateX(-50%);
   width: 220px;
   height: 1px;
-  background: rgba(255, 255, 255, 0.459);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 .user-img {
@@ -114,52 +114,9 @@ a {
   flex-direction: column;
   justify-content: center;
   position: relative;
-}
-
-.showcase-container::before,
-.showcase-container::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border: 1px solid rgb(255, 255, 255);
-}
-
-.showcase-container::before {
-  top: 0;
-  left: 0;
-  border-right: none;
-  border-bottom: none;
-}
-
-.showcase-container::after {
-  bottom: 0;
-  right: 0;
-  border-left: none;
-  border-top: none;
-}
-
-.showcase-container span::before,
-.showcase-container span::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border: 1px solid rgb(255, 255, 255);
-}
-
-.showcase-container span::before {
-  top: 0;
-  right: 0;
-  border-left: none;
-  border-bottom: none;
-}
-
-.showcase-container span::after {
-  bottom: 0;
-  left: 0;
-  border-right: none;
-  border-top: none;
+  border: 1px solid transparent;
+  border-image-source: url("/assets/images/png/border.png");
+  border-image-slice: 1 fill;
 }
 
 .tts {
@@ -212,7 +169,7 @@ a {
   transform: translateX(-50%);
   width: 220px; /* довжина лінії */
   height: 1px; /* товщина лінії */
-  background: rgba(255, 255, 255, 0.459);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 /* нижня коротка лінія по центру */
@@ -224,7 +181,7 @@ a {
   transform: translateX(-50%);
   width: 220px;
   height: 1px;
-  background: rgba(255, 255, 255, 0.459);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 .ffr-title {
