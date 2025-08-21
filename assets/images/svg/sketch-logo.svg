@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="56" viewBox="0 0 50 56">
   <defs>
     <style>
       .cls-1 {
         font-size: 250px;
-        fill: #fff;
+        fill: orange;
         font-family: "MS Gothic";
       }
     </style>
   </defs>
-  <text id="ハ" class="cls-1" transform="translate(-21 876.504) scale(4.168)">ハ</text>
+  <text id="ト" class="cls-1" transform="translate(-11.164 53.245) scale(0.285 0.284)">ト</text>
 </svg>
