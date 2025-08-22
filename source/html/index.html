@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-    <div class="left-box">
+    <header>
       <div class="logo-container">
         <img
           class="playback-img"
@@ -21,211 +21,233 @@
         <h1 class="playback-title">︱Playback</h1>
       </div>
 
-      <div class="user-container">
-        <img class="user-img" src="/assets/images/jpg/icon.jpeg" alt="icon" />
-        <div class="user-infobox">
-          <span class="user-name"
-            >aksond1 <span style="color: limegreen">•</span></span
-          >
-          <span class="current-status">Watching: Living in ..</span>
-        </div>
+      <div class="search-container">
+        <input type="text" id="search-box" placeholder="Search..." />
+        <button type="submit" class="search-button">
+          <img src="/assets/images/svg/search.svg" alt="search" />
+        </button>
       </div>
 
-      <div class="showcase-container">
-        <span class="tts">
-          Total Time Spent: 317h
-          <br />
-          TTS for Today: 2.14h
-        </span>
+      <button type="button" class="header-button">☰</button>
+    </header>
 
-        <div class="stats-in-graph">
-          <img
-            class="circle-graph-example-img"
-            src="/assets/images/png/circle-graph-example.png"
-            alt="circle-graph-example"
-          />
-          <ul class="categories-list">
-            <li>Programming</li>
-            <li>Gaming</li>
-            <li>Anime</li>
-            <li>Other</li>
+    <div class="main-container">
+      <div class="left-box">
+        <div class="user-container">
+          <img class="user-img" src="/assets/images/jpg/icon.jpeg" alt="icon" />
+          <div class="user-infobox">
+            <span class="user-name"
+              >aksond1 <span style="color: limegreen">•</span></span
+            >
+            <span class="current-status">Watching: Living in ..</span>
+          </div>
+        </div>
+
+        <div class="showcase-container">
+          <span class="tts">
+            Total Time Spent: 317h
+            <br />
+            TTS for Today: 2.14h
+          </span>
+
+          <div class="stats-in-graph">
+            <img
+              class="circle-graph-example-img"
+              src="/assets/images/png/circle-graph-example.png"
+              alt="circle-graph-example"
+            />
+            <ul class="categories-list">
+              <li>Programming</li>
+              <li>Gaming</li>
+              <li>Anime</li>
+              <li>Other</li>
+            </ul>
+          </div>
+
+          <span class="text-under-graph"
+            >Compared to last week, you’ve started spending significantly less
+            time. <br />
+            At this pace, your productivity will increase by 23% over the next
+            three months. <br />
+            Keep up the great work! <br /><br />
+            Tip: Don't forget to drink more water !</span
+          >
+        </div>
+
+        <div class="following-friends-recommendations-container">
+          <h3 class="ffr-title">< Following ></h3>
+          <ul class="following-friends-recommendations-list">
+            <li>
+              <a class="following" href="qwe.html">
+                <img
+                  class="followed-channels-icons"
+                  src="/assets/images/jpg/ryisnow-icon.jpg"
+                  alt="ryisnow-icon"
+                />
+                <div class="followed-channels-info">
+                  <h4>RyiSnow <span style="color: dodgerblue">•</span></h4>
+                  <span class="latest-publication" style="font-size: 12px"
+                    >Latest Publication: 01/08/2025</span
+                  >
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="following" href="qwe.html">
+                <img
+                  class="followed-channels-icons"
+                  src="/assets/images/jpg/slidan-icon.jpg"
+                  alt="slidan-icon"
+                />
+                <div class="followed-channels-info">
+                  <h4>slidan <span style="color: rgb(75, 75, 75)">•</span></h4>
+                  <span class="latest-publication" style="font-size: 12px"
+                    >Latest Publication: 19/11/2023</span
+                  >
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="following" href="qwe.html">
+                <img
+                  class="followed-channels-icons"
+                  src="/assets/images/jpg/the_coding_sloth-icon.jpg"
+                  alt="the_coding_sloth-icon"
+                />
+                <div class="followed-channels-info">
+                  <h4>
+                    The Coding Sloth <span style="color: dodgerblue">•</span>
+                  </h4>
+                  <span class="latest-publication" style="font-size: 12px"
+                    >Latest Publication: 28/05/2025</span
+                  >
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="following" href="qwe.html">
+                <img
+                  class="followed-channels-icons"
+                  src="/assets/images/jpg/exurb1a-icon.jpg"
+                  alt="exurb1a-icon"
+                />
+                <div class="followed-channels-info">
+                  <h4>exurb1a <span style="color: limegreen">•</span></h4>
+                  <span class="latest-publication" style="font-size: 12px"
+                    >Latest Publication: 02/06/2025</span
+                  >
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="following" href="qwe.html">
+                <img
+                  class="followed-channels-icons"
+                  src="/assets/images/jpg/pewdiepie-icon.jpg"
+                  alt="pewdiepie-icon"
+                />
+                <div class="followed-channels-info">
+                  <h4>
+                    PewDiePie <span style="color: rgb(75, 75, 75)">•</span>
+                  </h4>
+                  <span class="latest-publication" style="font-size: 12px"
+                    >Latest Publication: 09/08/2025</span
+                  >
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="following" href="qwe.html">
+                <h4>
+                  More
+                  <span style="position: relative; bottom: 2px">↓</span> (23)
+                </h4>
+              </a>
+            </li>
           </ul>
         </div>
 
-        <span class="text-under-graph"
-          >Compared to last week, you’ve started spending significantly less
-          time. <br />
-          At this pace, your productivity will increase by 23% over the next
-          three months. <br />
-          Keep up the great work! <br /><br />
-          Tip: Don't forget to drink more water !</span
-        >
-      </div>
-
-      <div class="following-friends-recommendations-container">
-        <h3 class="ffr-title">< Following ></h3>
-        <ul class="following-friends-recommendations-list">
-          <li>
-            <a class="following" href="qwe.html">
-              <img
-                class="followed-channels-icons"
-                src="/assets/images/jpg/ryisnow-icon.jpg"
-                alt="ryisnow-icon"
-              />
-              <div class="followed-channels-info">
-                <h4>RyiSnow <span style="color: dodgerblue">•</span></h4>
-                <span class="latest-publication" style="font-size: 12px"
-                  >Latest Publication: 01/08/2025</span
-                >
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="following" href="qwe.html">
-              <img
-                class="followed-channels-icons"
-                src="/assets/images/jpg/slidan-icon.jpg"
-                alt="slidan-icon"
-              />
-              <div class="followed-channels-info">
-                <h4>slidan <span style="color: rgb(75, 75, 75)">•</span></h4>
-                <span class="latest-publication" style="font-size: 12px"
-                  >Latest Publication: 19/11/2023</span
-                >
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="following" href="qwe.html">
-              <img
-                class="followed-channels-icons"
-                src="/assets/images/jpg/the_coding_sloth-icon.jpg"
-                alt="the_coding_sloth-icon"
-              />
-              <div class="followed-channels-info">
-                <h4>
-                  The Coding Sloth <span style="color: dodgerblue">•</span>
-                </h4>
-                <span class="latest-publication" style="font-size: 12px"
-                  >Latest Publication: 28/05/2025</span
-                >
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="following" href="qwe.html">
-              <img
-                class="followed-channels-icons"
-                src="/assets/images/jpg/exurb1a-icon.jpg"
-                alt="exurb1a-icon"
-              />
-              <div class="followed-channels-info">
-                <h4>exurb1a <span style="color: limegreen">•</span></h4>
-                <span class="latest-publication" style="font-size: 12px"
-                  >Latest Publication: 02/06/2025</span
-                >
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="following" href="qwe.html">
-              <img
-                class="followed-channels-icons"
-                src="/assets/images/jpg/pewdiepie-icon.jpg"
-                alt="pewdiepie-icon"
-              />
-              <div class="followed-channels-info">
-                <h4>PewDiePie <span style="color: rgb(75, 75, 75)">•</span></h4>
-                <span class="latest-publication" style="font-size: 12px"
-                  >Latest Publication: 09/08/2025</span
-                >
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="following" href="qwe.html">
-              <h4>
-                More <span style="position: relative; bottom: 2px">↓</span> (23)
-              </h4>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="hint-fact-container">
-        <h4 class="hf-title">Fun Fact</h4>
-        <p class="hf-text">
-          It's hard to believe, but yeah.. people used to touch grass.
-        </p>
-      </div>
-
-      <div class="links-container">
-        <p class="links-title">You can also try other junk I've created</p>
-        <ul class="links-list">
-          <li>
-            <a href="qwe.html"
-              ><img
-                src="/assets/images/svg/flux-logo.svg"
-                alt="flux-logo"
-              />︱Flux</a
-            >
-          </li>
-          <li>
-            <a href="qwe.html"
-              ><img
-                src="/assets/images/svg/sketch-logo.svg"
-                alt="sketch-logo"
-              />︱Sketch</a
-            >
-          </li>
-          <li>
-            <a href="qwe.html"
-              ><img
-                src="/assets/images/svg/warble-logo.svg"
-                alt="warble-logo"
-              />︱Warble</a
-            >
-          </li>
-          <li>
-            <a href="qwe.html"
-              ><img
-                src="/assets/images/svg/hence-logo.svg"
-                alt="hence-logo"
-              />︱Hence</a
-            >
-          </li>
-          <li>
-            <a href="qwe.html"
-              ><img
-                src="/assets/images/svg/interval-logo.svg"
-                alt="interval-logo"
-              />︱Interval</a
-            >
-          </li>
-        </ul>
-      </div>
-
-      <div class="feedback-container">
-        <label for="feedback"><h3 class="feedback">Leave Feedback:</h3></label>
-        <textarea
-          id="feedback"
-          name="feedback"
-          placeholder="Write your feedback here..."
-        ></textarea>
-      </div>
-
-      <div class="other-stuff-container">
-        <div>
-          <a href="123.html"> <h4 class="os-title">Settings</h4></a>
+        <div class="hint-fact-container">
+          <h4 class="hf-title">Fun Fact</h4>
+          <p class="hf-text">
+            It's hard to believe, but yeah.. people used to touch grass.
+          </p>
         </div>
-        <div>
-          <a href="123.html"> <h4 class="os-title">FAQ</h4></a>
+
+        <div class="links-container">
+          <p class="links-title">You can also try other junk I've created</p>
+          <ul class="links-list">
+            <li>
+              <a href="qwe.html"
+                ><img
+                  src="/assets/images/svg/flux-logo.svg"
+                  alt="flux-logo"
+                />︱Flux</a
+              >
+            </li>
+            <li>
+              <a href="qwe.html"
+                ><img
+                  src="/assets/images/svg/sketch-logo.svg"
+                  alt="sketch-logo"
+                />︱Sketch</a
+              >
+            </li>
+            <li>
+              <a href="qwe.html"
+                ><img
+                  src="/assets/images/svg/warble-logo.svg"
+                  alt="warble-logo"
+                />︱Warble</a
+              >
+            </li>
+            <li>
+              <a href="qwe.html"
+                ><img
+                  src="/assets/images/svg/hence-logo.svg"
+                  alt="hence-logo"
+                />︱Hence</a
+              >
+            </li>
+            <li>
+              <a href="qwe.html"
+                ><img
+                  src="/assets/images/svg/timeline-logo.svg"
+                  alt="interval-logo"
+                />︱Timeline</a
+              >
+            </li>
+          </ul>
         </div>
-        <div>
-          <a href="123.html"> <h4 class="os-title">Support</h4></a>
+
+        <div class="feedback-container">
+          <label for="feedback"
+            ><h3 class="feedback">Leave Feedback:</h3></label
+          >
+          <textarea
+            id="feedback"
+            name="feedback"
+            placeholder="Write your feedback here..."
+          ></textarea>
+        </div>
+
+        <div class="other-stuff-container">
+          <div>
+            <a href="123.html"> <h4 class="os-title">Settings</h4></a>
+          </div>
+          <div>
+            <a href="123.html"> <h4 class="os-title">FAQ</h4></a>
+          </div>
+          <div>
+            <a href="123.html"> <h4 class="os-title">Support</h4></a>
+          </div>
         </div>
       </div>
-      <script src="../js/script.js"></script>
+
+      <div class="right-box">
+        <div style="background-color: rgb(68, 68, 68); height: 100%"></div>
+      </div>
     </div>
+    <script src="../js/script.js"></script>
   </body>
 </html>

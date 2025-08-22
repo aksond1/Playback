@@ -20,22 +20,90 @@ a {
   color: #ffffff;
 }
 
-.left-box {
-  background-color: rgb(10, 10, 10);
+header {
+  margin: 0;
   padding: 20px;
-  width: 220px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
-/* Logo Container */
 
 .logo-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
 }
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+#search-box {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  width: 520px;
+  height: 35px;
+  padding: 0px 20px;
+  margin: 0;
+  border: 1px solid rgb(31, 31, 31);
+}
+
+.search-button {
+  background-color: rgb(15, 15, 15);
+  width: 53px;
+  height: 37px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(31, 31, 31);
+}
+
+.search-button img {
+  width: 15px;
+  height: 15px;
+}
+
+.header-button {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  width: 55px;
+  height: 37px;
+  margin: 0;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(31, 31, 31);
+}
+
+.main-container {
+  display: flex;
+  height: calc(100vh - 83px);
+}
+
+.left-box {
+  background-color: rgb(10, 10, 10);
+  padding: 0px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.left-box::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Logo Container */
 
 .playback-img {
   width: 30px;
@@ -309,6 +377,8 @@ a {
   top: 3px;
 }
 
+/* Feedback Container */
+
 .feedback-container {
   margin: 0;
   padding: 20px 0px;
@@ -330,6 +400,8 @@ a {
   box-sizing: border-box;
   resize: none;
 }
+
+/* Other Stuff Container */
 
 .other-stuff-container {
   margin: 0;
@@ -354,4 +426,14 @@ a {
 .os-title {
   padding: 0;
   margin: 0;
+}
+
+/* Right Box */
+
+.right-box {
+  padding: 30px;
+  flex: 1;
+  background-color: rgb(119, 57, 57);
+  padding: 20px;
+  overflow: hidden;
 }
