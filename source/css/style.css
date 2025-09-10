@@ -31,7 +31,7 @@ header {
 .logo-container {
   display: flex;
   justify-content: center;
-  padding-left: 5px;
+  width: 220px;
 }
 
 .playback-img {
@@ -39,7 +39,7 @@ header {
   height: 30px;
   float: left;
   position: relative;
-  top: 10px;
+  top: 7px;
 }
 
 .playback-title {
@@ -123,28 +123,8 @@ header {
   padding: 20px 0px;
   display: flex;
   position: relative;
-}
-
-.user-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 220px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.45);
-}
-
-.user-container::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 220px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.45);
+  border-top: 1px solid rgba(255, 255, 255, 0.45);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 .user-img {
@@ -229,6 +209,8 @@ header {
   display: flex;
   flex-direction: column;
   position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.45);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 .following-friends-recommendations-list {
@@ -237,28 +219,6 @@ header {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-}
-
-.following-friends-recommendations-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 220px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.45);
-}
-
-.following-friends-recommendations-container::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 220px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.45);
 }
 
 .ffr-title {
@@ -322,28 +282,8 @@ header {
   flex-direction: column;
   position: relative;
   gap: 6px;
-}
-
-.links-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 220px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.45);
-}
-
-.links-container::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 220px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.45);
+  border-top: 1px solid rgba(255, 255, 255, 0.45);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 .links-title {
@@ -409,17 +349,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: relative;
-}
-
-.other-stuff-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 220px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.45);
+  border-top: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 .os-title {
