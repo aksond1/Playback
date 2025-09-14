@@ -120,11 +120,10 @@ header {
 /* User Container */
 
 .user-container {
-  padding: 20px 0px;
+  padding: 0px;
+  padding-top: 15px;
   display: flex;
   position: relative;
-  border-top: 1px solid rgba(255, 255, 255, 0.45);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 .user-img {
@@ -147,6 +146,7 @@ header {
   margin-left: 14px;
   display: flex;
   flex-wrap: nowrap;
+  font-size: 13px;
 }
 
 /* Showcase Container */
@@ -154,7 +154,7 @@ header {
 .showcase-container {
   background-color: rgb(10, 10, 10);
   font-size: 14px;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
   display: flex;
