@@ -50,47 +50,21 @@ header {
 .search-container {
   display: flex;
   align-items: center;
-  gap: 3px;
+  justify-content: space-between;
 }
 
 #search-box {
   background-color: rgb(15, 15, 15);
   color: white;
-  width: 520px;
+  width: 500px;
   height: 35px;
   padding: 0px 20px;
   margin: 0;
-  border: 1px solid rgb(31, 31, 31);
-}
-
-.search-button {
-  background-color: rgb(15, 15, 15);
-  width: 53px;
-  height: 37px;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(31, 31, 31);
-}
-
-.search-button img {
-  width: 15px;
-  height: 15px;
+  border: none;
 }
 
 .header-button {
-  background-color: rgb(15, 15, 15);
-  color: white;
-  width: 55px;
-  height: 37px;
-  margin: 0;
-  padding: 0px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(31, 31, 31);
+  padding-right: 5px;
 }
 
 .main-container {
@@ -121,14 +95,6 @@ header {
 
 .banner {
   height: 65px;
-  clip-path: polygon(
-    20px 0,
-    100% 0,
-    100% calc(100% - 20px),
-    calc(100% - 20px) 100%,
-    0 100%,
-    0 20px
-  );
 }
 
 .user-container {
@@ -371,10 +337,43 @@ header {
 
 /* Right Box */
 
-.right-box {
-  padding: 30px;
+.hero {
   flex: 1;
-  background-color: rgb(119, 57, 57);
-  padding: 20px;
   overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.video-adjust {
+  margin-top: 10px;
+  padding: 0px 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.adjusting-video-by-preference {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.adjusting-video-by-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.video-section {
+  padding: 20px 0px;
+}
+
+.video-block {
+  background-color: rgb(68, 68, 68);
+  height: 213px;
+  width: 380px;
 }
