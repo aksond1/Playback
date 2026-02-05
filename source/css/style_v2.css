@@ -40,6 +40,11 @@ header {
   flex-shrink: 0;
 }
 
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
 .logo-container {
   display: flex;
   justify-content: center;
@@ -391,14 +396,16 @@ header {
 }
 
 .video-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .video-block {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
   gap: 50px;
-  padding: 20px 0px;
+  padding-top: 20px;
 }
 
 .block-of-videos-1,
@@ -450,4 +457,34 @@ header {
 
   height: 40px;
   gap: 5px;
+}
+
+.line-center {
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+}
+.line-center::before,
+.line-center::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background: rgb(179, 179, 179);
+}
+.line-center::before {
+  left: 0;
+  transform: translateY(-50%);
+}
+.line-center::after {
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.watchlist {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0px;
 }
