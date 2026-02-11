@@ -488,3 +488,21 @@ header {
   gap: 10px;
   margin: 20px 0px;
 }
+
+.trends-box {
+  display: flex;
+  gap: 50px;
+}
+
+.control-panel {
+  height: 367px;
+  width: 220px;
+  background-color: #926a3c;
+  border-radius: 10px;
+}
+
+.trends-videos {
+  width: 1318px;
+  display: flex;
+  justify-content: space-between;
+}
