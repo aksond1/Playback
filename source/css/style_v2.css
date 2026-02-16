@@ -506,3 +506,15 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.test-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  background-color: white;
+  width: 174px;
+  height: 24px;
+  border-radius: 7px;
+}
