@@ -495,7 +495,7 @@ header {
 }
 
 .control-panel {
-  height: 367px;
+  height: 351px;
   width: 220px;
   background-color: #926a3c;
   border-radius: 10px;
@@ -505,6 +505,16 @@ header {
   width: 1318px;
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid white;
+  margin-top: 10px;
+}
+
+.v1,
+.v2,
+.v3 {
+  border-left: 1px solid white;
+  height: 30px;
+  margin-left: 194px;
 }
 
 .test-blocks {
@@ -513,8 +523,17 @@ header {
 }
 
 .block {
-  background-color: white;
-  width: 174px;
+  background-color: rgb(37, 37, 37);
+  width: 164px;
   height: 24px;
   border-radius: 7px;
+  text-align: center;
+}
+
+.test-line {
+  border-left: 1px solid white;
+}
+
+.test {
+  display: flex;
 }
