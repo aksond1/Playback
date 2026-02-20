@@ -31,6 +31,11 @@ a {
   color: #ffffff;
 }
 
+ul,
+li {
+  list-style-type: none;
+}
+
 header {
   margin: 0;
   padding: 20px;
@@ -495,10 +500,64 @@ header {
 }
 
 .control-panel {
-  height: 351px;
+  height: 311px;
   width: 220px;
-  background-color: #926a3c;
   border-radius: 10px;
+  border: 2px dashed white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.control-panel-name {
+  text-align: center;
+}
+
+.lever-mechanism {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lever {
+  color: black;
+  background-color: #ffffff;
+  width: 100px;
+  height: 170px;
+}
+
+.scroll-speed-box {
+  width: 100px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.lever-speed-name {
+  text-align: center;
+}
+
+.scroll-speed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.scroll-speed {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(141, 141, 141);
+}
+
+.stop-scroll-box,
+.mouse-scroll-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stop-button {
+  width: 25px;
 }
 
 .trends-videos {
