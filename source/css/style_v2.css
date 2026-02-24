@@ -34,6 +34,7 @@ a {
 ul,
 li {
   list-style-type: none;
+  padding: 0;
 }
 
 header {
@@ -595,4 +596,15 @@ header {
 
 .test {
   display: flex;
+}
+
+.ending {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border-top: 1px solid white;
+}
+
+.ending-block {
+  text-align: center;
 }
