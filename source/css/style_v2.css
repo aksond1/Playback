@@ -35,6 +35,7 @@ ul,
 li {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 header {
@@ -600,11 +601,71 @@ header {
 
 .ending {
   display: flex;
-  justify-content: flex-end;
-  gap: 100px;
+  justify-content: space-between;
   padding: 0px 10px;
   border-top: 1px solid white;
   margin: 20px 0px;
+  gap: 40px;
+}
+
+.ending-words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  margin-top: 20px;
+}
+
+.ending-words::before,
+.ending-words::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+}
+
+.ending-words::before {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.ending-words::after {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}
+
+.ending-words span::before,
+.ending-words span::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+}
+
+.ending-words span::before {
+  top: 0;
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+}
+
+.ending-words span::after {
+  bottom: 0;
+  left: 0;
+  border-right: none;
+  border-top: none;
+}
+
+.ending-links {
+  display: flex;
+  gap: 100px;
 }
 
 .ending-block {
@@ -612,6 +673,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 14px;
 }
 
 .resources {
