@@ -585,7 +585,7 @@ header {
 
 .block {
   background-color: rgb(37, 37, 37);
-  width: 164px;
+  width: 154px;
   height: 24px;
   border-radius: 7px;
   text-align: center;
@@ -597,6 +597,14 @@ header {
 
 .test {
   display: flex;
+}
+
+.closed-category-title {
+  font-size: 16px;
+}
+
+.gray {
+  color: gray;
 }
 
 .ending {
