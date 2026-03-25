@@ -469,9 +469,16 @@ header {
 }
 
 .video-title {
+  font-weight: 500;
+  padding-left: 3px;
   display: flex;
   align-items: center;
   height: 51px;
+}
+
+.more-info-btn {
+  width: 15px;
+  flex-shrink: 0;
 }
 
 .info {
@@ -481,13 +488,27 @@ header {
 }
 
 .infobox {
+  padding: 0px 3px;
   display: flex;
   height: 40px;
   gap: 5px;
 }
 
+.user-nickname {
+  color: rgba(220, 220, 220);
+}
+
 .short-video-stats {
-  color: rgb(141, 141, 141);
+  color: darkgrey;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.short-video-stats_vertical-line {
+  display: inline-block;
+  border-left: 1px solid darkgrey;
+  height: 13px;
 }
 
 .user-icon {
