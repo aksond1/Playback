@@ -52,6 +52,18 @@ header {
   padding: 0;
 }
 
+.active-user-status-dot {
+  color: limegreen;
+}
+
+.online-user-status-dot {
+  color: dodgerblue;
+}
+
+.offline-user-status-dot {
+  color: rgb(75, 75, 75);
+}
+
 .logo-container {
   display: flex;
   justify-content: center;
@@ -151,7 +163,7 @@ header {
   margin-left: 14px;
 }
 
-.current-status {
+.active-status {
   margin-left: 14px;
   display: flex;
   flex-wrap: nowrap;
@@ -258,6 +270,15 @@ header {
   width: 34px;
   height: 34px;
   border-radius: 50%;
+}
+
+.latest-publication {
+  font-size: 12px;
+}
+
+.show-more-btn {
+  position: relative;
+  bottom: 2px;
 }
 
 /* Random Facts Container */
@@ -461,9 +482,18 @@ header {
 
 .infobox {
   display: flex;
-
   height: 40px;
   gap: 5px;
+}
+
+.short-video-stats {
+  color: rgb(141, 141, 141);
+}
+
+.user-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .line-center {
@@ -587,7 +617,7 @@ header {
   background-color: rgb(37, 37, 37);
   width: 154px;
   height: 24px;
-  border-radius: 7px;
+  border-radius: 3px;
   text-align: center;
 }
 
